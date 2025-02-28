@@ -3,7 +3,6 @@ import random  # For demo purposes; replace with actual ML model
 import numpy as np
 import pandas as pd
 import os
-
 from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData,PredictPipeline
 
